@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AppCommandFactoryTests | ASE Sushant Adhikari Comp-2 Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AppCommandFactoryTests | ASE Sushant Adhikari Comp-2 Documentation ">
+      
+      <meta name="description" content="Test class to verify the functionality of the AppCommandFactory.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/new/main/apiSpec/new?filename=ASE_AssignmentTests_AppCommandFactoryTests.md&amp;value=---%0Auid%3A%20ASE_AssignmentTests.AppCommandFactoryTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="ASE Sushant Adhikari Comp-2 Documentation">
+            ASE Sushant Adhikari Comp-2 Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ASE_AssignmentTests.AppCommandFactoryTests">
+
+
+
+  <h1 id="ASE_AssignmentTests_AppCommandFactoryTests" data-uid="ASE_AssignmentTests.AppCommandFactoryTests" class="text-break">
+Class AppCommandFactoryTests  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ASE_AssignmentTests.html">ASE_AssignmentTests</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ASE_AssignmentTests.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Test class to verify the functionality of the AppCommandFactory.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestClass]
+public class AppCommandFactoryTests</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AppCommandFactoryTests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppArray_ShouldCreateObjectAppArray_CreatesObjectAppArray_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppArray_ShouldCreateObjectAppArray_CreatesObjectAppArray*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppArray_ShouldCreateObjectAppArray_CreatesObjectAppArray" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppArray_ShouldCreateObjectAppArray_CreatesObjectAppArray">
+  MakeCommandAppArray_ShouldCreateObjectAppArray_CreatesObjectAppArray()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppArray when &quot;array&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppArray_ShouldCreateObjectAppArray_CreatesObjectAppArray()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppCall_ShouldCreateObjectAppCall_CreatesObjectAppCall_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppCall_ShouldCreateObjectAppCall_CreatesObjectAppCall*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppCall_ShouldCreateObjectAppCall_CreatesObjectAppCall" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppCall_ShouldCreateObjectAppCall_CreatesObjectAppCall">
+  MakeCommandAppCall_ShouldCreateObjectAppCall_CreatesObjectAppCall()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppCall when &quot;call&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppCall_ShouldCreateObjectAppCall_CreatesObjectAppCall()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppClear_ShouldCreateObjectAppClear_CreatesObjectAppClear_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppClear_ShouldCreateObjectAppClear_CreatesObjectAppClear*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppClear_ShouldCreateObjectAppClear_CreatesObjectAppClear" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppClear_ShouldCreateObjectAppClear_CreatesObjectAppClear">
+  MakeCommandAppClear_ShouldCreateObjectAppClear_CreatesObjectAppClear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppClear when &quot;clear&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppClear_ShouldCreateObjectAppClear_CreatesObjectAppClear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppElse_ShouldCreateObjectAppElse_CreatesObjectAppElse_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppElse_ShouldCreateObjectAppElse_CreatesObjectAppElse*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppElse_ShouldCreateObjectAppElse_CreatesObjectAppElse" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppElse_ShouldCreateObjectAppElse_CreatesObjectAppElse">
+  MakeCommandAppElse_ShouldCreateObjectAppElse_CreatesObjectAppElse()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppElse when &quot;else&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppElse_ShouldCreateObjectAppElse_CreatesObjectAppElse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppEnd_ShouldCreateObjectAppEnd_CreatesObjectAppEnd_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppEnd_ShouldCreateObjectAppEnd_CreatesObjectAppEnd*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppEnd_ShouldCreateObjectAppEnd_CreatesObjectAppEnd" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppEnd_ShouldCreateObjectAppEnd_CreatesObjectAppEnd">
+  MakeCommandAppEnd_ShouldCreateObjectAppEnd_CreatesObjectAppEnd()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppEnd when &quot;end&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppEnd_ShouldCreateObjectAppEnd_CreatesObjectAppEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppFor_ShouldCreateObjectFor_CreatesObjectAppFor_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppFor_ShouldCreateObjectFor_CreatesObjectAppFor*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppFor_ShouldCreateObjectFor_CreatesObjectAppFor" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppFor_ShouldCreateObjectFor_CreatesObjectAppFor">
+  MakeCommandAppFor_ShouldCreateObjectFor_CreatesObjectAppFor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppFor when &quot;for&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppFor_ShouldCreateObjectFor_CreatesObjectAppFor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppIf_ShouldCreateObjectIf_CreatesObjectAppIf_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppIf_ShouldCreateObjectIf_CreatesObjectAppIf*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppIf_ShouldCreateObjectIf_CreatesObjectAppIf" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppIf_ShouldCreateObjectIf_CreatesObjectAppIf">
+  MakeCommandAppIf_ShouldCreateObjectIf_CreatesObjectAppIf()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppIf when &quot;if&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppIf_ShouldCreateObjectIf_CreatesObjectAppIf()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppInt_ShouldCreateObjectAppInt_CreatesObjectAppInt_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppInt_ShouldCreateObjectAppInt_CreatesObjectAppInt*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppInt_ShouldCreateObjectAppInt_CreatesObjectAppInt" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppInt_ShouldCreateObjectAppInt_CreatesObjectAppInt">
+  MakeCommandAppInt_ShouldCreateObjectAppInt_CreatesObjectAppInt()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppInt when &quot;int&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppInt_ShouldCreateObjectAppInt_CreatesObjectAppInt()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppMethod_ShouldCreateObjectAppMethod_CreatesObjectAppMethod_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppMethod_ShouldCreateObjectAppMethod_CreatesObjectAppMethod*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppMethod_ShouldCreateObjectAppMethod_CreatesObjectAppMethod" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppMethod_ShouldCreateObjectAppMethod_CreatesObjectAppMethod">
+  MakeCommandAppMethod_ShouldCreateObjectAppMethod_CreatesObjectAppMethod()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppMethod when &quot;method&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppMethod_ShouldCreateObjectAppMethod_CreatesObjectAppMethod()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppReal_ShouldCreateObjectAppReal_CreatesObjectAppReal_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppReal_ShouldCreateObjectAppReal_CreatesObjectAppReal*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppReal_ShouldCreateObjectAppReal_CreatesObjectAppReal" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppReal_ShouldCreateObjectAppReal_CreatesObjectAppReal">
+  MakeCommandAppReal_ShouldCreateObjectAppReal_CreatesObjectAppReal()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppReal when &quot;real&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppReal_ShouldCreateObjectAppReal_CreatesObjectAppReal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppWhile_ShouldCreateObjectAppWhile_CreatesObjectAppWhile_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppWhile_ShouldCreateObjectAppWhile_CreatesObjectAppWhile*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppWhile_ShouldCreateObjectAppWhile_CreatesObjectAppWhile" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppWhile_ShouldCreateObjectAppWhile_CreatesObjectAppWhile">
+  MakeCommandAppWhile_ShouldCreateObjectAppWhile_CreatesObjectAppWhile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppWhile when &quot;while&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppWhile_ShouldCreateObjectAppWhile_CreatesObjectAppWhile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppWrite_ShouldCreateObjectAppWrite_CreatesObjectAppWrite_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppWrite_ShouldCreateObjectAppWrite_CreatesObjectAppWrite*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandAppWrite_ShouldCreateObjectAppWrite_CreatesObjectAppWrite" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandAppWrite_ShouldCreateObjectAppWrite_CreatesObjectAppWrite">
+  MakeCommandAppWrite_ShouldCreateObjectAppWrite_CreatesObjectAppWrite()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates AppWrite when &quot;write&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandAppWrite_ShouldCreateObjectAppWrite_CreatesObjectAppWrite()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandPenColour_ShouldCreateObjectPenColour_CreatesObjectPenColour_" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandPenColour_ShouldCreateObjectPenColour_CreatesObjectPenColour*"></a>
+
+  <h3 id="ASE_AssignmentTests_AppCommandFactoryTests_MakeCommandPenColour_ShouldCreateObjectPenColour_CreatesObjectPenColour" data-uid="ASE_AssignmentTests.AppCommandFactoryTests.MakeCommandPenColour_ShouldCreateObjectPenColour_CreatesObjectPenColour">
+  MakeCommandPenColour_ShouldCreateObjectPenColour_CreatesObjectPenColour()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tests whether the factory instantiates PenColour when &quot;pencolour&quot; is passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestMethod]
+public void MakeCommandPenColour_ShouldCreateObjectPenColour_CreatesObjectPenColour()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-sadhikari10/blob/main/ASE_Assignment/ASE_AssignmentTests/AppCommandFactoryTests.cs/#L15" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
